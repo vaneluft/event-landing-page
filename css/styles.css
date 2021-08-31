@@ -3,11 +3,6 @@
     padding-right: 15rem;
 }
 
-#hero {
-    background-image: url(https://images.pexels.com/photos/4503504/pexels-photo-4503504.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-    background-size: cover;
-}
-
 .myText {
     margin-top: 50px;
 }
@@ -18,5 +13,15 @@
 
 .card-img-top {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+#hero {
+    background-image: url(https://images.pexels.com/photos/4503504/pexels-photo-4503504.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+}
+
+.card-img {
+    justify-content:left; 
+    width: 500px;
 }
