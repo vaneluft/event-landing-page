@@ -1,3 +1,46 @@
+header {
+    width: 100%;
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+li {
+ text-align: center;
+ display: inline-block;
+}
+
+li a{
+    display: inline-block;
+    color:rgb(56, 53, 53);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .myclass {
     height: 500px;
     padding-right: 15rem;
@@ -24,4 +67,23 @@
 .card-img {
     justify-content:left; 
     width: 500px;
+}
+
+footer {
+    position: inherit;
+    bottom: 0;
+    height: 10px;
+    padding: 10px;
+}
+
+.media {
+    display: inline;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.connect {
+    padding-left: 25px;
+    padding-bottom: 5px;
+    display: inline;
 }
